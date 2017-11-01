@@ -1,0 +1,9 @@
+*.elc
+elpa/*
+backup/*
+auto-save-list/*
+ido.last
+abbrev_defs
+custom.el
+url/*
+network*
