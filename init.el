@@ -37,6 +37,7 @@
     ;; mode specific settings
     init-go
     init-ruby
+    init-k8s
     ;; apply automodes
     init-tab
     init-automodes
