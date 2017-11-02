@@ -16,8 +16,14 @@
 
   (use-package telephone-line-segments)
 
+
+  (telephone-line-defsegment k8s-segment ()
+    (format "k8s: %s" (custom-k8s-context))
+    )
+
   (setq telephone-line-lhs
-        '((accent . (telephone-line-vc-segment
+        '((evil   . (k8s-segment))
+          (accent . (telephone-line-vc-segment
                      telephone-line-process-segment))
           (nil . (telephone-line-buffer-segment))))
 

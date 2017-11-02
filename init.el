@@ -31,6 +31,7 @@
 (defcustom dotemacs-modules
   '(
     init-common
+    init-custom-k8s
     init-dependencies
     init-appearance
     init-modeline
