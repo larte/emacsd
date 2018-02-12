@@ -43,6 +43,7 @@
     init-tab
     init-automodes
     init-behaviour
+    init-fun
     )
   "Set of modules enabled in dotemacs."
   :group 'dotemacs)

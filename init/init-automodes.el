@@ -1,3 +1,4 @@
+
 (setq auto-mode-alist
       (append '(("\\.C$"         . c++-mode)
                 ("\\.cc$"        . c++-mode)
@@ -24,8 +25,10 @@
                 ("\\.hs$"       . haskell-mode)
                 ("\\.hi$"       . haskell-mode)
                 ("\\.go$"       . go-mode)
+                ("\\.groovy$"       . groovy-mode)
                 ("\\.lhs$"       . haskell-mode)
                 ("\\.ml[ily]?$" . tuareg-mode)
+                ("\\.tf" . terraform-mode)
                 ("\\.topml$" . tuareg-mode)
                 ("\\.txt$"       . text-mode)
                 ("\\.http$"       . restclient-mode)
