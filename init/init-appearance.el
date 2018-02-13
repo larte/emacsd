@@ -12,19 +12,10 @@
   (defvar whitespace-style)
              (setq whitespace-line-column 80
                    whitespace-style '(face tabs trailing lines-tail))
-             ;; face for long lines' tails
              (set-face-attribute 'whitespace-line nil
                                   :background "red1"
                                   :foreground "yellow"
                                   :weight 'bold)
-
-             ;; ;; face for Tabs
-             ;; (set-face-attribute 'whitespace-tab nil
-             ;;                     :background "red1"
-             ;;                     :foreground "yellow"
-             ;;                     :weight 'bold)
-
-             ;;(set-face-attribute 'default nil :height 160)
              )
 (autoload 'whitespace-mode "whitespace" "" t)
 (setq global-whitespace-mode t)
@@ -46,6 +37,20 @@
 (scroll-bar-mode 0)
 
 ;; Theme
-(load-theme 'tango t)
+;; (load-theme 'tango t)
+;;   (defvar github-override-colors-alist
+;;         '(("github-comment"  . "#ffffff")))
+;; (load-theme 'github-modern t)
+;; (use-package github-modern-theme
+;;   :config
+;;   (load-theme 'github-modern t)
+;;   )
+
+(use-package tango-plus-theme
+  :config
+  (load-theme 'tango-plus t))
+
+;; (use-package eterm-256color
+;;   :ensure t)
 
 (provide 'init-appearance)
