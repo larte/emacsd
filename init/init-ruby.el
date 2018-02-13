@@ -11,6 +11,7 @@
   :init
   (defvar ruby-basic-offset 4)
   (add-hook 'ruby-mode-hook 'ruby-refactor-mode-launch)
+  (setq ruby-insert-encoding-magic-comment nil)
   (add-hook 'ruby-mode-hook 'whitespace-mode))
 (use-package rubocop-mode
   :init
