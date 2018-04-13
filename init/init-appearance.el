@@ -46,6 +46,7 @@
 ;;   (load-theme 'github-modern t)
 ;;   )
 
+(require-package 'tango-plus-theme)
 (use-package tango-plus-theme
   :config
   (load-theme 'tango-plus t))

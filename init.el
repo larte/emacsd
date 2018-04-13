@@ -50,3 +50,4 @@
 
 (dolist (module dotemacs-modules)
   (require module))
+(put 'upcase-region 'disabled nil)

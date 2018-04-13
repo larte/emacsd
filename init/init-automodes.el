@@ -56,6 +56,7 @@
                 ("\\.mm$"         . objc-mode)
                 ("\\.md$"         . markdown-mode)
                 ("\\.MD$"         . markdown-mode)
+                ("\\.feature$"    . feature-mode)
                 ("\\.markdown$"         . markdown-mode))
               auto-mode-alist))
 

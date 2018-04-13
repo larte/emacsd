@@ -8,5 +8,5 @@
 (require-package 'nginx-mode)
 (require-package 'terraform-mode)
 (require-package 'yaml-mode)
-
+(require-package 'feature-mode)
 (provide 'init-dependencies)
