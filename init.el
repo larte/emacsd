@@ -44,6 +44,7 @@
     init-automodes
     init-behaviour
     init-fun
+    init-neotree
     )
   "Set of modules enabled in dotemacs."
   :group 'dotemacs)

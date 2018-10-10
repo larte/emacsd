@@ -12,14 +12,14 @@
   (defvar whitespace-style)
              (setq whitespace-line-column 80
                    whitespace-style '(face tabs trailing lines-tail))
-             (set-face-attribute 'whitespace-line nil
-                                  :background "red1"
-                                  :foreground "yellow"
-                                  :weight 'bold)
-             )
+             ;; (set-face-attribute 'whitespace-line nil
+             ;;                      :background "red1"
+             ;;                      :foreground "yellow"
+             ;;                      :weight 'bold)
+             ;; )
 (autoload 'whitespace-mode "whitespace" "" t)
 (setq global-whitespace-mode t)
-
+)
 
 ;; show parentheses
 (use-package paren
