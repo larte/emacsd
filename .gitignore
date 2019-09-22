@@ -1,6 +1,7 @@
 *.elc
 elpa/*
 backup/*
+emojis/*
 auto-save-list/*
 ido.last
 abbrev_defs
